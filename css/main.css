@@ -1,4 +1,4 @@
-p2{
+*{
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
     letter-spacing: 2px;
@@ -9,4 +9,8 @@ p2{
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+}
+
+a{
+    text-decoration: underline;
 }
