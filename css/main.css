@@ -1,8 +1,8 @@
 *{
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     color: #000000;
     font-weight: 400;
     text-decoration: none solid rgb(68, 68, 68);
@@ -12,13 +12,19 @@
 }
 
 h1{
-    /*
-    border-left: 5px solid #1C6EA4;
-    */
+    border-left: 3px solid #1C6EA4;
+    padding-left: 5px;
 }
 
 a{
-    /*
     text-decoration: underline;
-    */
+}
+
+.banner{
+    background: transparent url("https://bestanimations.com/media/color-full-earth/152469542globe-earth-animation-15-2.gif") no-repeat scroll 50% 50%;
+    background-size: contain;
+}
+
+body{
+    font-size: 1px;
 }
